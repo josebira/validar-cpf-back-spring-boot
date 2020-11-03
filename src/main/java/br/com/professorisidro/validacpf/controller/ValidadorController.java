@@ -19,4 +19,9 @@ public class ValidadorController {
 		 return "{\"status\": \"invalido\"}";
 	}
 
+	@GetMapping("/")
+	public String index() {
+	
+		 return "{\"mensagem\": \"seja bem vindo api do Bira\"}";
+	}
 }
